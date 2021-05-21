@@ -2,13 +2,19 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <style>
+            .cat {
+                display: none;
+                max-width: 500px;
+                margin-top: 5px;
+            }
+        </style>
     </head>
     <body>
         <h1>Nice to meowt you!</h1>
-        <img id="cat-img" style="display: none;max-width: 500px;">
-        <video id="cat-video" style="display: none;max-width: 500px;" controls></video>
-        <br>
-        <button id="cat-button">Discover a Cat</button>
+        <button id="cat-button">Anyather Cat</button><br>
+        <img id="cat-img" class="cat">
+        <video id="cat-video" class="cat" controls></video>        
         <script src="code.js"></script>
     </body>
 </html>
